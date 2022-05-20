@@ -1,0 +1,65 @@
+.comment_container{
+    width: 1300px;
+    height: 260px;
+    background: #464646;
+    border-radius: 20px;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 4%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.circle_container{
+    background: #2FB500;
+    width: fit-content;
+    border-radius: 100%;
+    height: fit-content;
+}
+
+.name_circle {
+    width: 77px;
+    height: 77px;
+    border-radius: 100%;
+    background: #2FB500;
+    display: inline-block;
+    padding: 1.2rem 1.4rem;
+}
+
+.name_circle p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-left: 3px;
+}
+
+
+
+.comment_author p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    margin-left: 2.5%;
+    color: #FFFFFF;
+}
+
+
+.comment_content p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    margin-left: 2.5%;
+    margin-top: 0%;
+    color: #FFFFFF;
+}

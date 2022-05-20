@@ -1,0 +1,25 @@
+.comments_container{
+    margin-left: 2%;
+    margin-top: 1%;
+    
+}
+
+.comments_container p{
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+    padding: 0.1rem 1.5rem;
+    margin: 0.5rem;
+    scroll-behavior: smooth;
+    font-style: normal;
+    margin-left: 1%;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #FFFFFF;
+}
+
+.comment_card_container{
+    box-sizing: border-box;
+    top:0;
+    margin-left: 1%;
+}

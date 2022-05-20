@@ -1,0 +1,30 @@
+.login-whole{
+    position: absolute;
+    font-family: 'Akira Expanded';
+    color: white;
+    right: 10%;
+    font: 100px;
+    margin-top: 100px;
+    text-align: end;
+}
+
+.login-form input{
+    background: transparent;
+    font-family: 'Montserrat';
+    border: 0;
+    margin-top: 20px;
+    color: white; 
+}
+
+.login-form input::placeholder{
+    color: white;
+    text-align: end;
+}
+
+.login-form h5{
+    margin-top: 60px;
+}
+
+.login-form a{
+    text-decoration: none;
+}

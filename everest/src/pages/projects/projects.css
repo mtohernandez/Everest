@@ -1,0 +1,112 @@
+.text{
+    color: white;
+    font-family: var(--font-family);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app{
+    margin-top: 100px;
+    max-height: 790px;
+    overflow: scroll;
+}
+
+.container {
+    width: 100%;
+    margin-left: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+
+.project {
+    width: 350px;
+    height: 400px;
+    margin: 1.5rem;
+  
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    border: none;
+  
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+  }
+  
+.project div:nth-of-type(1) {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+    line-height: 21px;
+    position: absolute;
+    opacity: 1;
+    top: 12px;
+    right: 20px;
+    border-radius: 30px;
+    width: 10rem;
+    color: #ffffff;
+  }
+  
+.project:hover {
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05, 1.05);
+  }
+  
+.project div:nth-of-type(2) {
+    width: 100%;
+    height: 100%;
+  }
+  
+.project div:nth-of-type(2) img {
+    height: 100%;
+    width: 100%;
+  }
+  
+.project div:nth-of-type(3) {
+    z-index: 2;
+    background: linear-gradient(0deg, #292929 0%, rgba(0, 0, 0, 0) 100%);
+    padding: 100% 24px 10px 24px;
+  
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+  
+.project div:nth-of-type(3) span {
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #f0f0f0;
+  }
+  
+.project div:nth-of-type(3) h3 {
+    margin-top: 2px;
+    margin-bottom: 1px;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    color: #ffffff;
+  }
+
+.project div:nth-of-type(3) h2 {
+    margin-top: 1px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #ffffff;
+  }
+
+.project:hover div:nth-of-type(2) {
+    height: 100%;
+    opacity: 0.3;
+  }
+  
+.project:hover div:nth-of-type(3) {
+    background-color: transparent;
+  }

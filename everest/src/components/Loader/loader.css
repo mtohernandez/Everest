@@ -1,0 +1,14 @@
+.loader{
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat Semibold';
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    margin-top: 360px;
+
+}

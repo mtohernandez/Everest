@@ -1,0 +1,46 @@
+.image{
+    margin: 0;
+    background: #000000d1;
+    position: relative;
+    margin-left: 50px;
+    top: 0px;
+    width: 95%;
+    height: 379px;
+    padding-top: 2%;
+    border-radius: 20px;
+}
+
+.image-container-arrow{
+    width: 50px;
+    height: 50px; 
+    position: relative;
+    left: 30px;
+    opacity: .8;
+    -webkit-transition: -webkit-transform 0.6s;
+	transition: -webkit-transform 0.6s;
+	transition: transform 0.6s;
+	transition: transform 0.6s, -webkit-transform 0.6s;
+}
+
+.image-container-arrow:hover{
+    -webkit-transform: scale(1.5);
+	        transform: scale(1.5);
+            transform: rotate(-90deg);
+            opacity: 1;
+}
+
+.state_container{
+    font-family: 'Montserrat';
+    text-align: center;
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 39px;
+    color: #FFFFFF;
+    width: 276px;
+    display: inline-block;
+    padding: 2rem 2.3rem;
+    margin-top: 22.5%;
+    margin-left: 73.5%;
+}

@@ -1,0 +1,38 @@
+.home-whole{
+    position: fixed;
+    right: 1%;
+    top: 150px;
+    color: rgb(3, 217, 255);
+    margin: 0 auto;
+    padding: 0%;
+    overflow-wrap: break-word;
+    display: row;
+}
+
+.home-text h1{
+    top: 0;
+    margin: 0;
+    font-family: 'Akira Outline';
+    font-size: 10rem;
+    display: inline-block;
+}
+
+.home-text h1:nth-child(1){
+    top: 0;
+    margin: 0;
+    font-family:'Akira Expanded';
+    font-style: normal;
+    display: inline-block;
+}
+
+.home-subtext p{
+    position: absolute;
+    color: white;
+    top: 80%;
+    right: 3%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+}

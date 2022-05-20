@@ -1,0 +1,109 @@
+
+.navbar{
+    font-family: "Montserrat", sans-serif;
+    margin: 0; 
+    left: 0;
+}
+
+.navbar input{
+  position: absolute;
+  font-size: 30px;
+  top: 5%;
+  left: 32%;
+
+  border: 0;
+  background: none;
+  color: white;
+}
+
+.navbar img{
+  position: absolute;
+  color: white;
+  filter: invert(100%) sepia(7%) saturate(5127%) hue-rotate(291deg) brightness(126%) contrast(95%);
+  top: 4%;
+  left: 3%;
+}
+
+.navMenu {
+    position: absolute;
+    top: 45%;
+    left: 4.2%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .navMenu a {
+    color: #f6f4e6;
+    padding: 5rem 4rem;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    width: 80px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    transform: rotate(-90deg);
+  }
+  
+  .navMenu a:hover {
+    color: #00a6ff;
+  }
+  
+  .navMenu .dot {
+    width: 6px;
+    height: 6px;
+    background: #00f7ff;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-transform: translateX(30px);
+    transform: translateX(30px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .navMenu a:nth-child(1):hover ~ .dot {
+    -webkit-transform: translateX(30px);
+    transform: translateX(30px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+  
+  .navMenu a:nth-child(2):hover ~ .dot {
+    -webkit-transform: translateX(110px);
+    transform: translateX(110px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+  
+  .navMenu a:nth-child(3):hover ~ .dot {
+    -webkit-transform: translateX(200px);
+    transform: translateX(200px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+  
+  .navMenu a:nth-child(4):hover ~ .dot {
+    -webkit-transform: translateX(285px);
+    transform: translateX(285px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+
+  .audioA{
+    position: absolute;
+    bottom: 6%;
+    left: 2.1%;
+    transform: rotate(90deg);
+  }
+
+
+  
+  

@@ -1,0 +1,44 @@
+.navbar{
+    font-family: "Montserrat", sans-serif;
+    margin: 0; 
+}
+
+.navbar-logo img{
+  position: absolute;
+  top: 3%;
+  left: 12%;
+}
+
+.navbar-text{
+    position: absolute;
+    font-family: 'Akira Expanded';
+    top: 3%;
+    left: 16%;
+    color: white;
+}
+
+.navbar-log a{
+    position: absolute;
+    text-decoration: none;
+    right: 6%;
+    top: 6%;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    background: transparent;
+}
+
+.navbar-log a:nth-child(2){
+    -webkit-transform: translateX(-200px);
+    transform: translateX(-200px);
+}
+
+.navbar-log a:hover {
+    color: #00a6ff;
+  }
+
+.navbar button{
+    cursor: pointer;
+}

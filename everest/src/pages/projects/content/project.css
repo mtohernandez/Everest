@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.App{
+  margin-top: 100px;
+  max-height: 790px;
+  margin-left: 100px;
+  max-width: 95%;
+  overflow: auto;
+}
+
+.divider {
+  width: 1250px;
+  height: 2px;
+  margin-left: 4%;
+  margin-top: 3%;
+  background: #FFFFFF;
+}
